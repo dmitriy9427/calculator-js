@@ -1,0 +1,68 @@
+:root {
+  --orange-color: rgba(197, 91, 10, 0.8);
+  --black-color: rgb(0, 0, 0);
+  --gray-color: rgb(123, 123, 123);
+  --black-gray-color: rgb(52, 51, 51);
+  --white-color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.calculator {
+  width: 320px;
+  height: 500px;
+  padding: 20px;
+  background-color: var(--black-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.calculator h1 {
+  color: var(--white-color);
+  margin: 0 auto;
+}
+
+.calculator p {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 45px;
+  color: var(--white-color);
+}
+
+.btns {
+  display: grid;
+  grid-template-areas:
+    "ac plus-minus persent divide"
+    "seven eight nine multy"
+    "four five six minus"
+    "one two three plus"
+    "zero zero point equally";
+  gap: 15px;
+  padding-top: 10px;
+}
+
+.btns .btn {
+  border: none;
+  outline: none;
+  background-color: var(--black-gray-color);
+  border-radius: 50%;
+}
+
+.btns .btn-gray {
+  background-color: var(--gray-color);
+}
+
+.btns .btn-orange {
+  background-color: var(--orange-color);
+}
+
+.zero {
+  grid-area: zero;
+}

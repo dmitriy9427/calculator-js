@@ -2,6 +2,8 @@
 
 <a href='https://dmitriy9427.github.io/calculator-js/' target='_blank'>Ссылка для просмотра</a>
 
+<img src='./photo_2023-10-06_21-39-35.jpg' alt='Изображение калькулятора'/>
+
 ### Стэк:
 
 - HTML5

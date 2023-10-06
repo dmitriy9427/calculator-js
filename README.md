@@ -25,4 +25,4 @@
 git clone https://github.com/dmitriy9427/calculator-js.git
 ```
 
-**Запустите у себя на редакторе кода с помощью Live Server**
+**Запустите у себя в редакторе кода с помощью Live Server**

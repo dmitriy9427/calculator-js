@@ -1,6 +1,6 @@
 # Калькулятор
 
-<a href='https://dmitriy9427.github.io/calculatorJS/' target='_blank'>Ссылка для просмотра</a>
+<a href='https://dmitriy9427.github.io/calculator-js/' target='_blank'>Ссылка для просмотра</a>
 
 ### Стэк:
 
